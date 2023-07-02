@@ -39,7 +39,7 @@ def calculate_md5(file_path):
 extracted_file_path = r'C:\Users\PC\Desktop\thmcaptureh4x0r3rr0r.pcapng'
 md5_hash = calculate_md5(extracted_file_path)
 print("MD5 Hash:", md5_hash)
-
+```
 
 
 Task 3 Q1: How many ICMP packets were captured? (with parcentage)
