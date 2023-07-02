@@ -2,7 +2,7 @@
   <br>
   <a href="https://tryhackme.com/room/packets"><img src="/Packets-writeup/img/img1.PNG"></a>
   <br>
-  Packtes Writeup
+  Packets Writeup
   <br>
 </h1>
 
