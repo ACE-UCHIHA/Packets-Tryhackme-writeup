@@ -2,7 +2,7 @@
 
 - [Task1](#Task1)
 - [Installation](#installation)
-- [Task3](#Task3)
+- [Task3](#task3-q1-how-many-icmp-packets-were-captured-with-parcentage)
 - [Contributing](#contributing)
 - [License](#license)
 
