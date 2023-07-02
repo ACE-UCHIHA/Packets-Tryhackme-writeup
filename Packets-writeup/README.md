@@ -1,4 +1,4 @@
-<img src="/img/img1.PNG"><br>
+<img src="/Packets-writeup/img/img1.PNG"><br>
 
 # Table of Contents
 
@@ -51,25 +51,25 @@
 Okey so we have to open the thmcaptureh4x0r3rr0r.pcapng file in wireshark then we'll see a packet at the top which is no 1 ( numbers are defined in the left first column). After selecting the first file we have to look at the " Packet Details Pane " . If we drop down the first row "Frame 1:" we'll be able to see the content that was in the Frame 1 . If we look at the contents we'll see a row named Arrival time.
 There you'll get the answer of the Q1.
 
-<img src="/img/img2.PNG"><br>
+<img src="/Packets-writeup/img/img2.PNG"><br>
 
 
 #### Q2: When was the last packet captured? (Format : Year-Month-Date Hours:Minutes:Seconds)
 
 This is similar to the Q1 all you have to do is just naviagte to the bottom of the list and select the last packet and look for the dat & time like you did in the Q1.
-<img src="/img/img3.PNG"><br>
+<img src="/Packets-writeup/img/img3.PNG"><br>
 
 #### Q3: How many packets were captured?
 
 To see how many packets were captured you have look at the bottom of you're wiresahrk UI thre is a status bar there. There you should see how many packets are there and many the displayed.
-<img src="/img/img4.PNG"><br>
+<img src="/Packets-writeup/img/img4.PNG"><br>
 
 #### Q4: What is the SHA256 hash of the file?
 
 To get the SHA256 hash of a file first select the file then look at the top of you're wireshark UI. There is a Toolbar. On the toolbar click the Statistics option then click the capture file properties or you can use  Ctrl+Alt+Shift+C and a page should pop up there you'll be able the find the SHA256 hash.
-<img src="/img/img5.PNG"><br>
-<img src="/img/img6.png"><br>
-<img src="/img/img7.PNG"><br>
+<img src="/Packets-writeup/img/img5.PNG"><br>
+<img src="/Packets-writeup/img/img6.png"><br>
+<img src="/Packets-writeup/img/img7.PNG"><br>
 
  #### Q5: What is the MD5 hash of the file?
 
@@ -101,18 +101,18 @@ This is similar to the [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-qu
 #### Q2: There was an ICMP ping request packet, which did not receive any response back. What is the packet number?
 
 First filter the ICMP packets then search for the packets with no response there should be written (no response found!) on the right of the packet.
-<img src="/img/img8.PNG"><br>
+<img src="/Packets-writeup/img/img8.PNG"><br>
 #### Q3: What was thr source IP of the above packet?
 
 after after you locate that package look at the third column of the the list (the third column is for the souce IP).
-<img src="/img/img9.PNG"><br>
+<img src="/Packets-writeup/img/img9.PNG"><br>
 #### Q4: What was thr destination IP of the above packet?
 
 after after you locate that package look at the fourth column of the the list (the fourth column is for the destination IP).
 #### Q5: What is the length of the packet?
 
 after after you locate that package look at the sixth column of the the list (the sixth column is for the length).
-<img src="/img/img10.PNG"><br>
+<img src="/Packets-writeup/img/img10.PNG"><br>
 #### Q6: In which country standard time was the packet captured?
 
 For this select the packet similar to [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-) [Question 1](#q1-when-was-the-first-packet-captured-format--year-month-date-hoursminutesseconds) look for the Arrival time and you should be able to see In which country standard time was the packet captured .
@@ -124,7 +124,7 @@ It's in the Arrival time too.
 Select the packet then look the the Packet Details Pane there you should see a drop-dow bar named Internet Control Message Protocol. Drop it down and you should see this :
 
 Now drop-down the bar named Data and you should get a field name & Value. right click on it and copy the value.
-<img src="/img/img11.PNG"><br>
+<img src="/Packets-writeup/img/img11.PNG"><br>
 #### Q9: Decode the value.
 
 The value is in hex so decode it however you want. Use a tool or script. You should be able to do this much by your self.
@@ -217,8 +217,8 @@ then look for the file that was in the /uploads directory
 
 
 To get the file click the File option in the tool bar then click Exports Objects then click HTTP since the file was downloaded via HTTP. After that you'll get the list of files that were transmitted using HTTP . Now download the file that was in the /uploads directory.
-<img src="/img/img12.PNG"><br>
-<img src="/img/img13.PNG"><br>
+<img src="/Packets-writeup/img/img12.PNG"><br>
+<img src="/Packets-writeup/img/img13.PNG"><br>
 
 #### Q5: What was the full request URI for the file? (Full Value)
 
@@ -226,7 +226,7 @@ click on the packets of the file then go to the Oackets detail pane then drop-do
 ```bash
 [Full request URI: http://the/url/of/the/file]
 ```
-<img src="/img/img14.PNG"><br>
+<img src="/Packets-writeup/img/img14.PNG"><br>
 #### Q6: What was the User-Agent? (Full Value)
 
 Same as [Task 5](#task-5) [Question 5](#q5-what-was-the-full-request-uri-for-the-file-full-value) drop-down the Hypertext Transfer Protocol after dropping it down you'll see 
