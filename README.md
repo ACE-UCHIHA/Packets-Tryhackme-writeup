@@ -4,37 +4,41 @@
 
 - [Task 1](#lets-start-from-task-1-in-task-1-theyre-telling-you-to-dowload-the-pcapng-file-so-obviously-download-it)
 - [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-)
-  -    [Q1](#q1-when-was-the-first-packet-captured-format--year-month-date-hoursminutesseconds)
-  -    [Q2](#q2-when-was-the-last-packet-captured-format--year-month-date-hoursminutesseconds)
-  -    [Q3](#q3-how-many-packets-were-captured)
-  -    [Q4](#q4-what-is-the-sha256-hash-of-the-file)
-  -    [Q5](#q5-what-is-the-md5-hash-of-the-file)
+  -    [Question 1](#q1-when-was-the-first-packet-captured-format--year-month-date-hoursminutesseconds)
+  -    [Question 2](#q2-when-was-the-last-packet-captured-format--year-month-date-hoursminutesseconds)
+  -    [Question 3](#q3-how-many-packets-were-captured)
+  -    [Question 4](#q4-what-is-the-sha256-hash-of-the-file)
+  -    [Question 5](#q5-what-is-the-md5-hash-of-the-file)
 - [Task 3](#task-3)
-  -    [Q1](#q1-how-many-icmp-packets-were-captured-with-parcentage)
-  -    [Q2](#q2-there-was-an-icmp-ping-request-packet-which-did-not-receive-any-response-back-what-is-the-packet-number)
-  -    [Q3](#q3-what-was-thr-source-ip-of-the-above-packet)
-  -    [Q4](#q4-what-was-thr-destination-ip-of-the-above-packet)
-  -    [Q5](#q5-what-is-the-length-of-the-packet)
-  -    [Q6](#q6-in-which-country-standard-time-was-the-packet-captured)
-  -    [Q7](#q7--when-the-packet-was-captured-format--year-month-date-hoursminutesseconds)
-  -    [Q8](#q8-what-is-the-data-value-of-the-packet)
-  -    [Q9](#q9-decode-the-value)
-  -    [Q10](#q10-in-the-decoded-strings-there-was--an-username-and-a-password-what-are-those)          
+  -    [Question 1](#q1-how-many-icmp-packets-were-captured-with-parcentage)
+  -    [Question 2](#q2-there-was-an-icmp-ping-request-packet-which-did-not-receive-any-response-back-what-is-the-packet-number)
+  -    [Question 3](#q3-what-was-thr-source-ip-of-the-above-packet)
+  -    [Question 4](#q4-what-was-thr-destination-ip-of-the-above-packet)
+  -    [Question 5](#q5-what-is-the-length-of-the-packet)
+  -    [Question 6](#q6-in-which-country-standard-time-was-the-packet-captured)
+  -    [Question 7](#q7--when-the-packet-was-captured-format--year-month-date-hoursminutesseconds)
+  -    [Question 8](#q8-what-is-the-data-value-of-the-packet)
+  -    [Question 9](#q9-decode-the-value)
+  -    [Question 10](#q10-in-the-decoded-strings-there-was--an-username-and-a-password-what-are-those)          
 - [Task 4](#task-4)
-  -    [Q1](#q1--how-many-ftp-packets-were-captured-with-parcentage)
-  -    [Q2](#q2-what-was-the-users-first-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword)
-  -    [Q3](#q3-what-was-the-users-last-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword)
-  -    [Q4](#q4-what-was-the-users-last-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword)
-  -    [Q5](#q5-which-file-is-seems-to-be-malicious-format-file-extension)
-  -    [Q6](#q6-what-is-the-md5-hash-of-the-malicious-file)
-  -    [Q7](#q7-what-is-the-md5-hash-of-the-normal-file)
-  -    [Q8](#q8-what-is-the-file-size-of-malicious-file-format-in-bytes)
-  -    [Q9](#q9-what-is-the-file-size-of-noraml-file-format-in-bytes)
-  -    [Q10](#q10-in-which-which-directory-was-the-normal-file-located)
-  -    [Q11](#q11-in-which-which-directory-was-the-malicious-file-located)
-  -    [Q12](#q12-what-is-the-ip-of-the-device-that-was-infected-by-the-malicious-file)
-- [Task 5](#)
-
+  -    [Question 1](#q1--how-many-ftp-packets-were-captured-with-parcentage)
+  -    [Question 2](#q2-what-was-the-users-first-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword)
+  -    [Question 3](#q3-what-was-the-users-last-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword)
+  -    [Question 4](#q4-what-was-the-users-last-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword)
+  -    [Question 5](#q5-which-file-is-seems-to-be-malicious-format-file-extension)
+  -    [Question 6](#q6-what-is-the-md5-hash-of-the-malicious-file)
+  -    [Question 7](#q7-what-is-the-md5-hash-of-the-normal-file)
+  -    [Question 8](#q8-what-is-the-file-size-of-malicious-file-format-in-bytes)
+  -    [Question 9](#q9-what-is-the-file-size-of-noraml-file-format-in-bytes)
+  -    [Question 10](#q10-in-which-which-directory-was-the-normal-file-located)
+  -    [Question 11](#q11-in-which-which-directory-was-the-malicious-file-located)
+  -    [Question 12](#q12-what-is-the-ip-of-the-device-that-was-infected-by-the-malicious-file)
+- [Task 5](#task-5)
+  -    [Question 1](#q1-how-many-http-packets-were-captured-with-parcentage)
+  -    [Question 2](#q2-what-is-the-file-downloaded-via-http-from-uploaded-files-of-the-website)
+  -    [Question 4](#q4--what-is-the-flag-displayed-in-the-file)
+  -    [Question 5](#q5-what-was-the-full-request-uri-for-the-file-full-value)
+  -    [Question 6](#q6-what-was-the-user-agent-full-value)
 
 
 
@@ -92,7 +96,7 @@ print("MD5 Hash:", md5_hash)
 ## Task 3
 #### Q1: How many ICMP packets were captured? (with parcentage)
 
-This is similar to the [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-) [Q3](#q3-how-many-packets-were-captured) but slightly different decause you have too filter out the other packets that are not ICMP(Internet Control Message Protocol). So for that go to the diplay filter and input icmp then hit enter and you should get only the ICMP packets on your screen. Now look at the status bar at the bottom there you should see how many ICMP packets were captured with parcentage.
+This is similar to the [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-) [Question 3](#q3-how-many-packets-were-captured) but slightly different decause you have too filter out the other packets that are not ICMP(Internet Control Message Protocol). So for that go to the diplay filter and input icmp then hit enter and you should get only the ICMP packets on your screen. Now look at the status bar at the bottom there you should see how many ICMP packets were captured with parcentage.
 
 #### Q2: There was an ICMP ping request packet, which did not receive any response back. What is the packet number?
 
@@ -111,7 +115,7 @@ after after you locate that package look at the sixth column of the the list (th
 <img src="/img/img10.PNG"><br>
 #### Q6: In which country standard time was the packet captured?
 
-For this select the packet similar to [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-) [Q1](#q1-when-was-the-first-packet-captured-format--year-month-date-hoursminutesseconds) look for the Arrival time and you should be able to see In which country standard time was the packet captured .
+For this select the packet similar to [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-) [Question 1](#q1-when-was-the-first-packet-captured-format--year-month-date-hoursminutesseconds) look for the Arrival time and you should be able to see In which country standard time was the packet captured .
 #### Q7:  When the packet was captured? (Format : Year-Month-Date Hours:Minutes:Seconds)
 
 It's in the Arrival time too.
@@ -132,7 +136,7 @@ After decoding it you should get the user name and password in the decoded value
 
 #### Q1:  How many FTP packets were captured? (with parcentage)
 
-It's same as the [Task 3](#task-3) [Q1](#q1-how-many-icmp-packets-were-captured-with-parcentage) just filter the FTP packets.
+It's same as the [Task 3](#task-3) [Question 1](#q1-how-many-icmp-packets-were-captured-with-parcentage) just filter the FTP packets.
 
 #### Q2: What was the user's first username and password that tried to login to frp server? (Format: username:password)
 
@@ -146,7 +150,7 @@ ftp.request.command == "PASS"
 ```
 #### Q3: What was the user's last username and password that tried to login to frp server? (Format: username:password)
 
-It's same as [Task 4](#task-4) [Q2](#q2-what-was-the-users-first-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword) just figure out whuch one was the first one anjd last one by yourself.
+It's same as [Task 4](#task-4) [Question 2](#q2-what-was-the-users-first-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword) just figure out whuch one was the first one anjd last one by yourself.
 
 #### Q4: What was the user's last username and password that tried to login to frp server? (Format: username:password)
 
@@ -169,7 +173,7 @@ go to the website upload the pcapng file then at the look at the left sidebar th
 
 #### Q7: What is the MD5 hash of the normal file? 
 
-The normal file is thm.png to get the file you can use the methods in the [Task 4](#task-4) [Q6](#q6-what-is-the-md5-hash-of-the-malicious-file) but now you can use both methods in windows andf linux.
+The normal file is thm.png to get the file you can use the methods in the [Task 4](#task-4) [Question 6](#q6-what-is-the-md5-hash-of-the-malicious-file) but now you can use both methods in windows andf linux.
 
 #### Q8: What is the file size of malicious file? (Format: In Bytes)
 
@@ -177,7 +181,7 @@ for this click on the malicious file look at the Packet Details Pane there you s
 
 #### Q9: What is the file size of noraml file? (Format: In Bytes)
 
-Same as [Task 4](#task-4) [Q8](#q8-what-is-the-file-size-of-malicious-file-format-in-bytes) .
+Same as [Task 4](#task-4) [Question 8](#q8-what-is-the-file-size-of-malicious-file-format-in-bytes) .
 
 #### Q10: In which which directory was the normal file located?
 
@@ -187,7 +191,7 @@ for this click on the normal file look at the Packet Details Pane there you shou
 
 #### Q11: In which which directory was the malicious file located?
 
-This is same as the [Task 4](#task-4) [Q10](#q10-in-which-which-directory-was-the-normal-file-located) but you won't see any directory there because it was in the root directory. so there isn't any directory defined.
+This is same as the [Task 4](#task-4) [Question 10](#q10-in-which-which-directory-was-the-normal-file-located) but you won't see any directory there because it was in the root directory. so there isn't any directory defined.
 
 #### Q12: What is the IP of the device that was infected by the malicious file?
 
@@ -195,4 +199,45 @@ locate the malicious file then look for the destination IP . and that is the IP 
 
 
 
+## Task 5:
+
+#### Q1: How many HTTP packets were captured? (with parcentage)
+
+same as [Task 3](#task-3) [Question 1](#q1-how-many-icmp-packets-were-captured-with-parcentage) & [Task 4](#task-4) [Question 1](#q1--how-many-ftp-packets-were-captured-with-parcentage)
+
+#### Q2: What is the file downloaded via HTTP from uploaded files of the website?
+
+So to get the file downloloaded via HTTP we need to filter the GET requests. Use this for that:
+```bash
+http.request.method == "GET"
+```
+then look for the file that was in the /uploads directory
+
+#### Q4:  What is the flag displayed in the file?
+
+
+To get the file click the File option in the tool bar then click Exports Objects then click HTTP since the file was downloaded via HTTP. After that you'll get the list of files that were transmitted using HTTP . Now download the file that was in the /uploads directory.
+<img src="/img/img12.PNG"><br>
+<img src="/img/img13.PNG"><br>
+
+#### Q5: What was the full request URI for the file? (Full Value)
+
+click on the packets of the file then go to the Oackets detail pane then drop-down the Hypertext Transfer Protocol after dropping it down you'll see 
+```bash
+[Full request URI: http://the/url/of/the/file]
+```
+<img src="/img/img14.PNG"><br>
+#### Q6: What was the User-Agent? (Full Value)
+
+Same as [Task 5](#task-5) [Question 5](#q5-what-was-the-full-request-uri-for-the-file-full-value) drop-down the Hypertext Transfer Protocol after dropping it down you'll see 
+```bash
+User-Agent: Mozilla/5.0 (***; Linux x**_**; rv:***.*) Gecko/******** Firefox/***.*\r\n
+```
+
+#
+
+<h3>HOPE THIS WRITEUP HELPED YOU AND YOU LEANRED SOMETHING NEW </h3>
+</hr>
+<h2>IF YOU LIKED IT THEN LEAVE A STAR ^3^</h2>
+<h1>PEACE <3</h1>
  
