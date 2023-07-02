@@ -10,9 +10,9 @@
 
 
 
-Let's start from ## Task 1. In task 1 they're telling you to dowload the pcapng file so obviously download it.
+## Let's start from Task 1. In task 1 they're telling you to dowload the pcapng file so obviously download it.
 
-Now let's get into ## Task 2. In Task 2 the first question is : 
+## Now let's get into ## Task 2. In Task 2 the first question is : 
 
 When was the first packet captured? (Format : Year-Month-Date Hours:Minutes:Seconds)
 
