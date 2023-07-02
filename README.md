@@ -1,7 +1,7 @@
 # Table of Contents
 
-- [Task 1](#)
-- [Task 2](#)
+- [Task 1](#lets-start-from-task-1-in-task-1-theyre-telling-you-to-dowload-the-pcapng-file-so-obviously-download-it)
+- [Task 2](#now-lets-get-into--task-2-in-task-2-the-first-question-is-)
 - [Task 3](#task3-q1-how-many-icmp-packets-were-captured-with-parcentage)
 - [Task 4](#)
 - [Task 5](#)
