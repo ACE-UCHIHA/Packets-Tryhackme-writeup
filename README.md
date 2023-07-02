@@ -1,4 +1,4 @@
-<img src="img1.PNG"><br>
+<img src="/img/img1.PNG"><br>
 
 # Table of Contents
 
@@ -35,25 +35,25 @@
 Okey so we have to open the thmcaptureh4x0r3rr0r.pcapng file in wireshark then we'll see a packet at the top which is no 1 ( numbers are defined in the left first column). After selecting the first file we have to look at the " Packet Details Pane " . If we drop down the first row "Frame 1:" we'll be able to see the content that was in the Frame 1 . If we look at the contents we'll see a row named Arrival time.
 There you'll get the answer of the Q1.
 
-<img src="img2.PNG"><br>
+<img src="/img/img2.PNG"><br>
 
 
 #### Q2: When was the last packet captured? (Format : Year-Month-Date Hours:Minutes:Seconds)
 
 This is similar to the Q1 all you have to do is just naviagte to the bottom of the list and select the last packet and look for the dat & time like you did in the Q1.
-<img src="img3.PNG"><br>
+<img src="/img/img3.PNG"><br>
 
 #### Q3: How many packets were captured?
 
 To see how many packets were captured you have look at the bottom of you're wiresahrk UI thre is a status bar there. There you should see how many packets are there and many the displayed.
-<img src="img4.PNG"><br>
+<img src="/img/img4.PNG"><br>
 
 #### Q4: What is the SHA256 hash of the file?
 
 To get the SHA256 hash of a file first select the file then look at the top of you're wireshark UI. There is a Toolbar. On the toolbar click the Statistics option then click the capture file properties or you can use  Ctrl+Alt+Shift+C and a page should pop up there you'll be able the find the SHA256 hash.
-<img src="img5.PNG"><br>
-<img src="img6.png"><br>
-<img src="img7.PNG"><br>
+<img src="/img/img5.PNG"><br>
+<img src="/img/img6.png"><br>
+<img src="/img/img7.PNG"><br>
 
  #### Q5: What is the MD5 hash of the file?
 
