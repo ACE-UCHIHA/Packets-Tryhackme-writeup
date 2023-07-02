@@ -36,7 +36,7 @@ def calculate_md5(file_path):
             md5_hash.update(chunk)
     return md5_hash.hexdigest()
 
-extracted_file_path = r'C:\Users\PC\Desktop\thmcaptureh4x0r3rr0r.pcapng'
+extracted_file_path = r'path/to/your/pcapng/file'
 md5_hash = calculate_md5(extracted_file_path)
 print("MD5 Hash:", md5_hash)
 ```
