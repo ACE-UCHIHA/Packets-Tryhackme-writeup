@@ -54,7 +54,7 @@ print("MD5 Hash:", md5_hash)
 ```
 
 
-##Task3 Q1: How many ICMP packets were captured? (with parcentage)
+## Task3 Q1: How many ICMP packets were captured? (with parcentage)
 
 
 This is similar to the Task 2 Q3 but slightly different decause you have too filter out the other packets that are not ICMP(Internet Control Message Protocol). So for that go to the diplay filter and input icmp then hit enter and you should get only the ICMP packets on your screen. Now look at the status bar at the bottom there you should see how many ICMP packets were captured with parcentage.
