@@ -1,3 +1,5 @@
+<img src="img1.PNG"><br>
+
 # Table of Contents
 
 - [Task 1](#lets-start-from-task-1-in-task-1-theyre-telling-you-to-dowload-the-pcapng-file-so-obviously-download-it)
@@ -8,6 +10,16 @@
   -    [Q4](#q4-what-is-the-sha256-hash-of-the-file)
   -    [Q5](#q5-what-is-the-md5-hash-of-the-file)
 - [Task 3](#task3-q1-how-many-icmp-packets-were-captured-with-parcentage)
+  -    [Q1](#q1-how-many-icmp-packets-were-captured-with-parcentage)
+  -    [Q2](#q2-there-was-an-icmp-ping-request-packet-which-did-not-receive-any-response-back-what-is-the-packet-number)
+  -    [Q3](#q3-what-was-thr-source-ip-of-the-above-packet)
+  -    [Q4](#q4-what-was-thr-destination-ip-of-the-above-packet)
+  -    [Q5](#q5-what-is-the-length-of-the-packet)
+  -    [Q6](#q6-in-which-country-standard-time-was-the-packet-captured)
+  -    [Q7](#q7--when-the-packet-was-captured-format--year-month-date-hoursminutesseconds)
+  -    [Q8](#q8-what-is-the-data-value-of-the-packet)
+  -    [Q9](#q9-decode-the-value)
+  -    [Q10](#q10-in-the-decoded-strings-there-was--an-username-and-a-password-what-are-those)          
 - [Task 4](#)
 - [Task 5](#)
 
@@ -23,20 +35,29 @@
 Okey so we have to open the thmcaptureh4x0r3rr0r.pcapng file in wireshark then we'll see a packet at the top which is no 1 ( numbers are defined in the left first column). After selecting the first file we have to look at the " Packet Details Pane " . If we drop down the first row "Frame 1:" we'll be able to see the content that was in the Frame 1 . If we look at the contents we'll see a row named Arrival time.
 There you'll get the answer of the Q1.
 
+<img src="img2.PNG"><br>
+
 
 #### Q2: When was the last packet captured? (Format : Year-Month-Date Hours:Minutes:Seconds)
 
 This is similar to the Q1 all you have to do is just naviagte to the bottom of the list and select the last packet and look for the dat & time like you did in the Q1.
+<img src="img3.PNG"><br>
+
 #### Q3: How many packets were captured?
 
 To see how many packets were captured you have look at the bottom of you're wiresahrk UI thre is a status bar there. There you should see how many packets are there and many the displayed.
+<img src="img4.PNG"><br>
 
 #### Q4: What is the SHA256 hash of the file?
 
 To get the SHA256 hash of a file first select the file then look at the top of you're wireshark UI. There is a Toolbar. On the toolbar click the Statistics option then click the capture file properties or you can use  Ctrl+Alt+Shift+C and a page should pop up there you'll be able the find the SHA256 hash.
+<img src="img5.PNG"><br>
+<img src="img6.png"><br>
+<img src="img7.PNG"><br>
+
  #### Q5: What is the MD5 hash of the file?
 
-So I used a Python script tp get the hash. here's the script:
+So I used a Python script to get the hash. here's the script:
 
 
 
@@ -57,7 +78,7 @@ print("MD5 Hash:", md5_hash)
 
 
 ## Task3 Q1: How many ICMP packets were captured? (with parcentage)
-#### Q1:
+#### Q1: How many ICMP packets were captured? (with parcentage)
 
 This is similar to the Task 2 Q3 but slightly different decause you have too filter out the other packets that are not ICMP(Internet Control Message Protocol). So for that go to the diplay filter and input icmp then hit enter and you should get only the ICMP packets on your screen. Now look at the status bar at the bottom there you should see how many ICMP packets were captured with parcentage.
 
