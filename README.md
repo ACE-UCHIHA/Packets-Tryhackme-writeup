@@ -6,7 +6,7 @@
   -    [Q2](#q2-when-was-the-last-packet-captured-format--year-month-date-hoursminutesseconds)
   -    [Q3](#q3-how-many-packets-were-captured)
   -    [Q4](#q4-what-is-the-sha256-hash-of-the-file)
-  -    [Q5](https://github.com/ACE-UCHIHA/Packets-Tryhackme-writeup/edit/main/README.md#q5-what-is-the-md5-hash-of-the-file)
+  -    [Q5](#q5-what-is-the-md5-hash-of-the-file)
 - [Task 3](#task3-q1-how-many-icmp-packets-were-captured-with-parcentage)
 - [Task 4](#)
 - [Task 5](#)
