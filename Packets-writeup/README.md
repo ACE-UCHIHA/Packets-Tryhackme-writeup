@@ -1,6 +1,12 @@
-<img src="/Packets-writeup/img/img1.PNG"><br>
+<h1 align="center">
+  <br>
+  <a href="https://tryhackme.com/room/packets"><img src="/Packets-writeup/img/img1.PNG"></a>
+  <br>
+  Packtes Writeup
+  <br>
+</h1>
 
-# Table of Contents
+## Table of Contents
 
 - [Task 1](#lets-start-from-task-1-in-task-1-theyre-telling-you-to-dowload-the-pcapng-file-so-obviously-download-it)
 - [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-)
