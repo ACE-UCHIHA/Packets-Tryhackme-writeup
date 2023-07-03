@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-- [Task 1](#lets-start-from-task-1-in-task-1-theyre-telling-you-to-dowload-the-pcapng-file-so-obviously-download-it)
+- [Task 1](#lets-start-from-task-1-in-task-1-theyre-telling-you-to-download-the-pcapng-file-so-obviously-download-it)
 - [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-)
   -    [Question 1](#q1-when-was-the-first-packet-captured-format--year-month-date-hoursminutesseconds)
   -    [Question 2](#q2-when-was-the-last-packet-captured-format--year-month-date-hoursminutesseconds)
@@ -49,7 +49,7 @@
 
 
 
-## Let's start from Task 1. In task 1 they're telling you to dowload the pcapng file so obviously download it.
+## Let's start from Task 1. In task 1 they're telling you to download the pcapng file so obviously download it.
 
 ## Now let's get into Task 2. In Task 2 the first question is : 
 #### Q1: When was the first packet captured? (Format : Year-Month-Date Hours:Minutes:Seconds)
@@ -62,12 +62,12 @@ There you'll get the answer of the Q1.
 
 #### Q2: When was the last packet captured? (Format : Year-Month-Date Hours:Minutes:Seconds)
 
-This is similar to the Q1 all you have to do is just naviagte to the bottom of the list and select the last packet and look for the dat & time like you did in the Q1.
+This is similar to the Q1 all you have to do is just naviagte to the bottom of the list and select the last packet and look for the date & time like you did in the Q1.
 <img src="/Packets-writeup/img/img3.PNG"><br>
 
 #### Q3: How many packets were captured?
 
-To see how many packets were captured you have look at the bottom of you're wiresahrk UI thre is a status bar there. There you should see how many packets are there and many the displayed.
+To see how many packets were captured you have look at the bottom of you're wiresahrk UI there is a status bar there. There you should see how many packets are there and how many are displayed.
 <img src="/Packets-writeup/img/img4.PNG"><br>
 
 #### Q4: What is the SHA256 hash of the file?
@@ -102,7 +102,7 @@ print("MD5 Hash:", md5_hash)
 ## Task 3
 #### Q1: How many ICMP packets were captured? (with parcentage)
 
-This is similar to the [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-) [Question 3](#q3-how-many-packets-were-captured) but slightly different decause you have too filter out the other packets that are not ICMP(Internet Control Message Protocol). So for that go to the diplay filter and input icmp then hit enter and you should get only the ICMP packets on your screen. Now look at the status bar at the bottom there you should see how many ICMP packets were captured with parcentage.
+This is similar to the [Task 2](#now-lets-get-into-task-2-in-task-2-the-first-question-is-) [Question 3](#q3-how-many-packets-were-captured) but slightly different because you have too filter out the other packets that are not ICMP(Internet Control Message Protocol). So for that go to the display filter and input icmp then hit enter and you should get only the ICMP packets on your screen. Now look at the status bar at the bottom there you should see how many ICMP packets were captured with percentage.
 
 #### Q2: There was an ICMP ping request packet, which did not receive any response back. What is the packet number?
 
@@ -110,14 +110,14 @@ First filter the ICMP packets then search for the packets with no response there
 <img src="/Packets-writeup/img/img8.PNG"><br>
 #### Q3: What was thr source IP of the above packet?
 
-after after you locate that package look at the third column of the the list (the third column is for the souce IP).
+after you locate that package look at the third column of the list (the third column is for the source IP).
 <img src="/Packets-writeup/img/img9.PNG"><br>
 #### Q4: What was thr destination IP of the above packet?
 
-after after you locate that package look at the fourth column of the the list (the fourth column is for the destination IP).
+after you locate that package look at the fourth column of the list (the fourth column is for the destination IP).
 #### Q5: What is the length of the packet?
 
-after after you locate that package look at the sixth column of the the list (the sixth column is for the length).
+after you locate that package look at the sixth column of the list (the sixth column is for the length).
 <img src="/Packets-writeup/img/img10.PNG"><br>
 #### Q6: In which country standard time was the packet captured?
 
@@ -127,7 +127,7 @@ For this select the packet similar to [Task 2](#now-lets-get-into-task-2-in-task
 It's in the Arrival time too.
 #### Q8: What is the data value of the packet?
 
-Select the packet then look the the Packet Details Pane there you should see a drop-dow bar named Internet Control Message Protocol. Drop it down and you should see this :
+Select the packet then look at the Packet Details Pane there you should see a drop-down bar named Internet Control Message Protocol. Drop it down.
 
 Now drop-down the bar named Data and you should get a field name & Value. right click on it and copy the value.
 <img src="/Packets-writeup/img/img11.PNG"><br>
@@ -136,7 +136,7 @@ Now drop-down the bar named Data and you should get a field name & Value. right 
 The value is in hex so decode it however you want. Use a tool or script. You should be able to do this much by your self.
 #### Q10: In the decoded strings there was  an username and a password, what are those?
 
-After decoding it you should get the user name and password in the decoded value.
+After decoding it you should get the username and password in the decoded value.
 
 ## Task 4
 
@@ -150,15 +150,15 @@ Use this for filter for filtering the USER packets.
 ```bash
 ftp.request.command == "USER"
 ```
-Use this for filter for filtering the USER packets.
+Use this for filter for filtering the PASS packets.
 ```bash
 ftp.request.command == "PASS"
 ```
-#### Q3: What was the user's last username and password that tried to login to frp server? (Format: username:password)
+#### Q3: What was the user's last username and password that tried to login to ftp server? (Format: username:password)
 
-It's same as [Task 4](#task-4) [Question 2](#q2-what-was-the-users-first-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword) just figure out whuch one was the first one anjd last one by yourself.
+It's same as [Task 4](#task-4) [Question 2](#q2-what-was-the-users-first-username-and-password-that-tried-to-login-to-frp-server-format-usernamepassword) just figure out whuch one was the first one and last one by yourself.
 
-#### Q4: What was the user's last username and password that tried to login to frp server? (Format: username:password)
+#### Q4: How many files were downloaded from the FTP server?
 
 Use this filter to see the packtes that where captured when dowloading the files in FTP
 ```bash
@@ -176,16 +176,16 @@ https://www.virustotal.com/gui/home/search
 #### Q6: What is the MD5 hash of the malicious file? 
 
 Okey so the malicious file CyberSec.pdf has a batch payload in it so if you download it windowsa your defender will remove it. So download it on linux and use the [MD5 encryption py script](#md5-encryption-py-script).
-and don't worry windows there is nothing to fear because ["I am here"](https://github.com/ACE-UCHIHA). It took me some time but I got a website where you can analyze the pcapng file and the website also provides a tables with different infornmation about the files that are in the pcapng file like the CyberSrc.pdf, thm.png etc. anhd yes you guessed it in those information there is the MD5 hash of those files too. 
+and don't worry windows there is nothing to fear because ["I am here"](https://github.com/ACE-UCHIHA). It took me some time but I got a website where you can analyze the pcapng file and the website also provides a tables with different infornmation about the files that are in the pcapng file like the CyberSrc.pdf, thm.png etc. and yes you guessed it in those information there is the MD5 hash of those files too. 
 website URL: 
 ```url
 https://lab.dynamite.ai/
 ```
-go to the website upload the pcapng file then at the look at the left sidebar there should be a option named "Artifacts" click on that then go to the bottom of the page and you  should be able to see a table name "Interactive Data Table". In this table you'll find the MD5 hash.
+go to the website upload the pcapng file then look at the left sidebar there should be a option named "Artifacts" click on that then go to the bottom of the page and you  should be able to see a table name "Interactive Data Table". In this table you'll find the MD5 hash.
 
 #### Q7: What is the MD5 hash of the normal file? 
 
-The normal file is thm.png to get the file you can use the methods in the [Task 4](#task-4) [Question 6](#q6-what-is-the-md5-hash-of-the-malicious-file) but now you can use both methods in windows andf linux.
+The normal file is thm.png to get the file you can use the methods in the [Task 4](#task-4) [Question 6](#q6-what-is-the-md5-hash-of-the-malicious-file) but now you can use both methods in windows and linux.
 
 #### Q8: What is the file size of malicious file? (Format: In Bytes)
 
@@ -198,7 +198,7 @@ Same as [Task 4](#task-4) [Question 8](#q8-what-is-the-file-size-of-malicious-fi
 #### Q10: In which which directory was the normal file located?
 
 
-for this click on the normal file look at the Packet Details Pane there you should see a row [Current working directory: ***-***] find this in the Packet Details Pane and you'll get the file size in bytes.
+for this click on the normal file look at the Packet Details Pane there you should see a row [Current working directory: ***-***] find this in the Packet Details Pane and you'll get the directory.
 
 
 #### Q11: In which which directory was the malicious file located?
@@ -207,7 +207,7 @@ This is same as the [Task 4](#task-4) [Question 10](#q10-in-which-which-director
 
 #### Q12: What is the IP of the device that was infected by the malicious file?
 
-locate the malicious file then look for the destination IP . and that is the IP you were looking for.
+locate the malicious file then look for the source IP . and that is the IP you were looking for.
 
 
 
@@ -228,13 +228,13 @@ then look for the file that was in the /uploads directory
 #### Q4:  What is the flag displayed in the file?
 
 
-To get the file click the File option in the tool bar then click Exports Objects then click HTTP since the file was downloaded via HTTP. After that you'll get the list of files that were transmitted using HTTP . Now download the file that was in the /uploads directory.
+To get the file click the File option in the tool bar then click Export Objects then click HTTP since the file was downloaded via HTTP. After that you'll get the list of files that were transmitted using HTTP . Now download the file that was in the /uploads directory.
 <img src="/Packets-writeup/img/img12.PNG"><br>
 <img src="/Packets-writeup/img/img13.png"><br>
 
 #### Q5: What was the full request URI for the file? (Full Value)
 
-click on the packets of the file then go to the Oackets detail pane then drop-down the Hypertext Transfer Protocol after dropping it down you'll see 
+click on the packets of the file then go to the Packets detail pane then drop-down the Hypertext Transfer Protocol after dropping it down you'll see 
 ```bash
 [Full request URI: http://the/url/of/the/file]
 ```
