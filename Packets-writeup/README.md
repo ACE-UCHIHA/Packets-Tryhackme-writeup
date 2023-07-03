@@ -167,10 +167,16 @@ ftp.request.command == "RETR"
 #### Q5: Which file is seems to be malicious? (Format: File Extension)
 
 
+If you're a Linux user then export those ftp files then take their hashes and check them on [virus total](https://www.virustotal.com/gui/home/search). Then you'll know which one is malicious.I have shown how to export the files in [Task 5](#task-5)  [Question 4](#q4--what-is-the-flag-displayed-in-the-file),
+here's the URL of the virustotal website for checking the hash.
+```bash
+https://www.virustotal.com/gui/home/search
+```
+
 #### Q6: What is the MD5 hash of the malicious file? 
 
 Okey so the malicious file CyberSec.pdf has a batch payload in it so if you download it windowsa your defender will remove it. So download it on linux and use the [MD5 encryption py script](#md5-encryption-py-script).
-and don't worry windows because ["I am here"](https://github.com/ACE-UCHIHA). It took me some time but I got a website where you can analyze the pcapng file and the website also provides a tables with different infornmation about the files that are in the pcapng file like the CyberSrc.pdf, thm.png etc. anhd yes you guessed it in those information there is the MD5 hash of those files too. 
+and don't worry windows there is nothing to fear because ["I am here"](https://github.com/ACE-UCHIHA). It took me some time but I got a website where you can analyze the pcapng file and the website also provides a tables with different infornmation about the files that are in the pcapng file like the CyberSrc.pdf, thm.png etc. anhd yes you guessed it in those information there is the MD5 hash of those files too. 
 website URL: 
 ```url
 https://lab.dynamite.ai/
@@ -224,7 +230,7 @@ then look for the file that was in the /uploads directory
 
 To get the file click the File option in the tool bar then click Exports Objects then click HTTP since the file was downloaded via HTTP. After that you'll get the list of files that were transmitted using HTTP . Now download the file that was in the /uploads directory.
 <img src="/Packets-writeup/img/img12.PNG"><br>
-<img src="/Packets-writeup/img/img13.PNG"><br>
+<img src="/Packets-writeup/img/img13.png"><br>
 
 #### Q5: What was the full request URI for the file? (Full Value)
 
