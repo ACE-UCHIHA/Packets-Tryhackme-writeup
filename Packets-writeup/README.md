@@ -252,6 +252,6 @@ User-Agent: Mozilla/5.0 (***; Linux x**_**; rv:***.*) Gecko/******** Firefox/***
 
 #
 <h2>IF YOU LIKED IT THEN LEAVE A STAR ^3^</h2>
-<h2>DON'T FORGET TO SHOW SOME LOVE TO THE CREATOR OF THR ROOM <a href="https://github.com/h4x0r3rr0r"> h4x0r3rr0r </a> </h2>
+<h2>DON'T FORGET TO SHOW SOME LOVE TO THE CREATOR OF THE ROOM <a href="https://github.com/h4x0r3rr0r"> h4x0r3rr0r </a> </h2>
 <h1>PEACE <3</h1>
  
